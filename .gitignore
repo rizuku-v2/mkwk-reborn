@@ -1,0 +1,4 @@
+includes/db.php
+assets/img/uploads/*
+!assets/img/uploads/.gitkeep
+*.log
