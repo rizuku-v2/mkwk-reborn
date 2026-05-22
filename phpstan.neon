@@ -1,0 +1,14 @@
+parameters:
+    level: 4
+    paths:
+        - admin
+        - includes
+        - .
+    excludePaths:
+        - vendor
+        - node_modules
+        - assets/img/uploads
+    ignoreErrors:
+        - '#Undefined variable#'
+        - '#Call to undefined function#'
+    reportUnmatchedIgnoredErrors: false
