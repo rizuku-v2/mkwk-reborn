@@ -17,14 +17,19 @@
         "squizlabs/php_codesniffer": "^3.7"
     },
     "scripts": {
-        "lint": "phpcs --standard=PSR12 --colors",
-        "lint-fix": "phpcbf --standard=PSR12",
-        "analyze": "phpstan analyse",
-        "test": "echo 'No tests configured yet'"
+        "lint": "phpcs --standard=PSR12 --colors .",
+        "lint-fix": "phpcbf --standard=PSR12 .",
+        "analyze": "phpstan analyse --level=4 .",
+        "test": "echo 'No tests configured yet'",
+        "post-install-cmd": "@php -r \"echo 'Installation complete. Run: composer run-script lint to check code style.';\"",
+        "post-update-cmd": "@php -r \"echo 'Update complete. Run: composer run-script lint to check code style.';\""
     },
     "config": {
         "allow-plugins": {
             "phpstan/phpstan-installation-manager": true
+        },
+        "platform": {
+            "php": "8.2"
         }
     }
 }
