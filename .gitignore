@@ -1,4 +1,40 @@
+# Database Configuration
 includes/db.php
+
+# Uploaded Files & Media
 assets/img/uploads/*
 !assets/img/uploads/.gitkeep
+
+# Logs
 *.log
+logs/
+
+# Composer
+vendor/
+composer.lock
+.composer/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# OS
+Thumbs.db
+.directory
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary Files
+tmp/
+temp/
+cache/
+*.tmp
