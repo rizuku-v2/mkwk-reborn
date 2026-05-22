@@ -1,4 +1,4 @@
-# MKWK Reborn 🎓
+# Portal Akademik MKWK 🎓
 
 > Portal Akademik Resmi Mata Kuliah Wajib Kurikulum (MKWK) Universitas Indraprasta PGRI
 
@@ -11,7 +11,7 @@
 
 ## 📋 Tentang Project
 
-MKWK Reborn adalah website portal akademik yang menyediakan informasi, materi pembelajaran, dan sistem evaluasi online untuk mahasiswa Universitas Indraprasta PGRI dalam rangka pelaksanaan Mata Kuliah Wajib Kurikulum (MKWK).
+Portal Akademik MKWK adalah website portal akademik yang menyediakan informasi, materi pembelajaran, dan sistem evaluasi online untuk mahasiswa Universitas Indraprasta PGRI dalam rangka pelaksanaan Mata Kuliah Wajib Kurikulum (MKWK).
 
 ---
 
@@ -47,12 +47,12 @@ MKWK Reborn adalah website portal akademik yang menyediakan informasi, materi pe
 
 **1. Clone repository**
 ```bash
-git clone https://github.com/rizuku-v2/mkwk-reborn.git
+git clone https://github.com/rizuku-v2/portal-akademik-mkwk.git
 ```
 
 **2. Pindahkan ke folder htdocs**
 ```
-C:\xampp\htdocs\mkwk-reborn
+C:\xampp\htdocs\portal-akademik-mkwk
 ```
 
 **3. Import Database**
@@ -81,12 +81,12 @@ if (!$conn) die("Koneksi gagal: " . mysqli_connect_error());
 
 **5. Jalankan di browser**
 ```
-http://localhost/mkwk-reborn
+http://localhost/portal-akademik-mkwk
 ```
 
 **6. Akses Panel Admin**
 ```
-http://localhost/mkwk-reborn/admin
+http://localhost/portal-akademik-mkwk/admin
 Username: admin
 Password: (sesuai database)
 ```
@@ -96,7 +96,7 @@ Password: (sesuai database)
 ## 📁 Struktur Folder
 
 ```
-mkwk-reborn/
+portal-akademik-mkwk/
 ├── admin/              # Panel administrasi
 │   ├── login.php
 │   ├── matkul.php
