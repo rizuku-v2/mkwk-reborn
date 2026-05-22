@@ -1,0 +1,30 @@
+{
+    "name": "rizuku-v2/portal-akademik-mkwk",
+    "description": "Portal Akademik MKWK Universitas Indraprasta PGRI",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RepoRizuku",
+            "email": "142154152+rizuku-v2@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "squizlabs/php_codesniffer": "^3.7"
+    },
+    "scripts": {
+        "lint": "phpcs --standard=PSR12 --colors",
+        "lint-fix": "phpcbf --standard=PSR12",
+        "analyze": "phpstan analyse",
+        "test": "echo 'No tests configured yet'"
+    },
+    "config": {
+        "allow-plugins": {
+            "phpstan/phpstan-installation-manager": true
+        }
+    }
+}
